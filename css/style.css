@@ -1,0 +1,55 @@
+body{
+    background-color: #ffffcb;
+    background-image: url("./../img/torta_limao_backS.png"), url("./../img/torta_limao_backI.png");
+    background-repeat: repeat-x, repeat-x;
+    background-position: top, bottom;
+    background-attachment: fixed, fixed;
+}
+
+main {
+    box-sizing: border-box;
+    width: 50%;
+    margin: auto;
+    background-color: #daff95;
+}
+
+h1 {
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    color: #ff9900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+h2 {
+    background-color: #ff9900;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    padding: 5px;
+    color: white;
+}
+
+.lista1 {
+    background-image: url(../img/torta_limao_item1.gif);
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    margin: 5px 5px 5px 15px;
+}
+
+.lista1 .sublista {
+    background-image: url("../img/torta_limao_item2.gif");
+    background-repeat: no-repeat;
+    margin: 5px 0px 5px 15px;
+    padding-left: 20px;
+}
+
+.lista1 .sublista li {
+    background-image: url("./../img/torta_limao_item3.gif");
+    background-repeat: no-repeat;
+    margin: 5px 0px 5px 15px;
+    padding-left: 15px;
+}
